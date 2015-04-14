@@ -3,10 +3,17 @@ ru:
     actions:
       create:
         notice: '%{resource_name} был успешно создан.'
+<<<<<<< HEAD
         # alert: 'Не удалось создать %{resource_name}.'
       update:
         notice: '%{resource_name} был успешно обновлён.'
         # alert: 'Не удалось обновить %{resource_name}.'
+=======
+        # alert: '%{resource_name} could not be created.'
+      update:
+        notice: '%{resource_name} был успешно обновлён.'
+        # alert: '%{resource_name} could not be updated.'
+>>>>>>> 95dcf99c91c53506c7b68d5230037e34385a017f
       destroy:
         notice: '%{resource_name} был успешно удалён.'
         alert: '%{resource_name} не удалось удалить.'
