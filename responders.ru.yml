@@ -9,4 +9,4 @@ ru:
         # alert: 'Не удалось обновить %{resource_name}.'
       destroy:
         notice: '%{resource_name} был успешно удалён.'
-        alert: '%{resource_name} не удалось удалить.'
+        alert: 'Не удалось удалить %{resource_name}.'
